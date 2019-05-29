@@ -12,6 +12,7 @@ install:
 
 script:
   - pytest --verbose example.py
+  - pytest --verbose testdesign.py
 
 notifications:
   email: false
